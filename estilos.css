@@ -1,0 +1,52 @@
+ * { /* Reset de estilos predeterminados */
+ margin:  0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ .texto {
+    margin: 1em;
+    line-height: 1.2em;
+ }
+ #cuadrado1 {
+    width: 200px;
+    height: 200px;
+    background: lime;
+    border: 1px black solid;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 0;
+ }
+ #cuadrado2 {
+    width: 200px;
+    height: 200px;
+    background: lightBlue;
+    border: 1px black solid;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 0;
+ }
+ #cuadrado3 {
+    width: 200px;
+    height: 200px;
+    background: #f56e6e;
+    border: 1px black solid;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 0;
+ }
+ .marco {
+    width: 230px;
+    height: 230px;
+    margin: 1.45em;
+    background-color: white;
+    box-shadow: rgba(0,0,0,0.5) 10px 10px 5px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: relative;
+    float: left;
+    z-index: -1;
+ }
+ main {
+    width: 70%;
+    float: left;
+ }
